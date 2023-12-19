@@ -1,0 +1,89 @@
+/* Colores*/
+/* #81ab98 verde
+#f7b233 Ocre
+#000000 Negro
+#ffffff blanco
+*/
+@font-face {    font-family: Minion;
+    src: url(./medios/Minion\ Variable\ Concept.otf);}
+:root{--bs-body-font-family: Minion;}
+    
+html{font-family:Minion;font-size: 62.5%;}
+nav{font-size: 2rem;}
+a{font-size: 2rem;}
+h1{font-size: 4rem}
+h2{font-size: 3rem;}
+h3{font-size: 3rem;}
+p{font-size: 2rem;}
+li{font-size: 2rem;}
+
+
+/*header*/
+header{display: flex; flex-direction: row;justify-content:space-between;}
+header{color:white;}
+header{position: sticky;top: 0px;}
+header{z-index: 10000;}
+header{width: 100%}
+header{background-color:#81ab98;font}
+header img{width: 120px;margin-top: 10px;margin-left: 10px;}
+header nav{text-align: center;color: #f7b233;}
+header ul{list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;}
+header a{text-decoration: none;margin: 10px;}
+
+
+/*main banner principal*/
+.titulo-principal{color: white;text-shadow: 0px 2px 6px rgba(0,0,0,0.7);}
+.Banner{background-image:url(../medios/cactus-suculentas-mezclados-macetas-pequenas.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 350px;}
+.mi-boton{background-color: #f7b233;}
+
+/*Carrousel destacados*/ 
+.Destacados{text-align: center;margin: 10px;height: 50;}
+.d-block{height: 350; object-fit: cover}
+
+
+/*Categorias*/
+.titulo-categoria{text-align: center;}
+.Categorias{display: flex;}
+.Categorias img{width: 30%;display: flex;flex-direction: row; justify-content: center;}
+.Categorias h1{text-align: center;}
+.div-flex{display: flex;}
+
+/*Accesorios*/
+.Categorias img{width: 30%;display: flex;flex-direction: row; justify-content: center;}
+.Categorias h1{text-align: center;}
+.div-flex{display: flex;}
+
+/*Productos*/
+.titulo-productos h1{text-align: center;}
+.Productos img{width:30%;}
+
+
+/*Contacto*/
+.titulo-Contacto{text-align: center;}
+.Contacto{font-size: 2rem;}
+
+/*Fooster*/
+footer{font-size: 2rem;}
+footer{display:flex; flex-direction: row;}
+footer{text-align: center;}
+footer{background-color: #81ab98;}
+.redes{width: 30px;text-align: center;}
+footer img{width: 50px}
+footer .redes{text-align: center;}
+
+/*Media query*/
+@media only screen and (max-width: 480px){
+header{flex-direction: column;justify-content:space-between;}
+header img{flex-direction:column;justify-content:  center;}
+nav{width: 90%;}}
+

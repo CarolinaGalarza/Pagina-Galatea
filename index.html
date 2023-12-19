@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Galatea</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--Navegacion--> 
+    <header class="header">
+        <img class="d-flex" src="medios/logo-galatea.png" alt="Logo Galatea">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+        <ul>
+            <li><a class="nav-link active" href="index.html"> Home </a></li>
+            <li><a href="pages/tienda.html">Tienda</a></li>
+            <li><a href="pages/nosotros.html"> Nosotros</a></li>
+            <li><a href="pages/tips.html">Tips</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    </nav>
+    </header>
+<!-- Cuerpo de pagina -->
+
+<!--Banner Principal -->
+    <main>
+        <section class="Banner">
+            <h1 class="titulo-principal">Lo mejor para tu hogar</h1>
+            <input class="mi-boton" type="button" value="Ver Productos">
+        </section>
+
+<!--Carrousel destacados --> 
+
+<section>
+    <div><h1 class="Destacados">Destacados</h1></div>
+        <div id="carouselExampleCaptions" class="carousel slide w-80 h1">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./medios/maceta-y-vela.png" class="img-carousel" alt="Maceta y Vela">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2> Combo Maceta mas Vela </h2>
+                  <p>La mejor combinacion para tu hogar</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./medios/velas-y-cajas.png" class="img-carousel" alt="Vela">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Vela de Lavanda</h2>
+                  <p>Vela de Soja Aroma Lavanda de 250 ml </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./medios/bolsa1.png" class="img-carousel" alt="Bolsa Reutilizable">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Bolsa Reutilizable</h2>
+                  <p>Bolsa de tela reutilizable</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+
+<!-- categorias -->
+<h1 class="titulo-categoria">Categorias</h1>
+<section class="Categorias">
+    
+    <div>
+        <img src="./medios/dsc-0396-edit.png" alt="macetam1">
+        <a href=""> Macetas de Concreto</a>
+    </div>
+    <div>
+        <img src="./medios/velas-y-cajas.png" alt="velas1">
+        <a href="">Velas de Soja</a>
+    </div>
+    <div>
+        <img src="./medios/bolsa1.png" alt="bolsam1">
+        <a href="">Accesorios</a>
+    </div>
+</section>
+
+    </main>
+
+
+<!--Pie de Pagina-->
+<footer>
+ <div class="d-flex">
+    <div class="d-flex">
+        <p>Medios de Pago</p>
+        <a href="">
+            <img src="../comision56570/medios/pngwing.com.png" alt="visa">
+            <img src="../comision56570/medios/efectivo.png" alt="Efectivo">
+            <img src="../comision56570/medios/pinpng.com-mercado-png-4241166.png" alt="ML">
+        </a>
+    </div>
+    <div>
+        <p> Contactanos</p>
+        <a href="../comision56570/Pages/contacto.html">
+            <img src="../comision56570/medios/correo.png" alt="correo">
+        </a>
+    </div>
+    <div>
+        <p class="redes">Seguinos</p>
+        <a href="https://www.instagram.com/galatea.pots/">
+            <img src="../comision56570/medios/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=100063683847007">
+            <img src="../comision56570/medios/Facebook.png" alt="Facebook">
+        </a>
+    </div>
+
+ </div>   
+
+<div>
+    <p>Copyright Carolina Galarza</p>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
